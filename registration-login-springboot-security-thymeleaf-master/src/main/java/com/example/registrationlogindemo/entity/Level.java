@@ -53,11 +53,4 @@ public class Level {
         this.opponentHP = opponentHP;
     }
 
-    Level[] levels = new Level[] {
-            new Level(1, "Battle 1", "Rattata", 10),
-            new Level(2, "PokeCenter", "None", 0), // HP gain level
-            new Level(3, "Evolution", "Pidgey", 12),
-            new Level(4, "Game Win", "Caterpie", 20), // Game win level
-    };
-
 }

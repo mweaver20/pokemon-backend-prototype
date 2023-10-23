@@ -7,17 +7,16 @@ package com.example.registrationlogindemo.entity.characters;
 public class Pokemon {
     private Pokemon pikachu;
 
+    //instanctate instances of all playable characters apon construction
     public Pokemon(){
         this.pikachu = new Pikachu();
     }
 
+    //create getters for all characters
     public Pokemon getPikachu() {
         return pikachu;
     }
 
-    public void setPikachu(Pikachu pikachu) {
-        this.pikachu = pikachu;
-    }
 
 
 }

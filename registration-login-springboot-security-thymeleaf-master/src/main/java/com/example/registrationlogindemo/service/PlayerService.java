@@ -7,8 +7,9 @@ import org.springframework.stereotype.Service;
 public class PlayerService {
 
     //create new player
-    public Player createPlayer(String username, Pokemon pokemon){
-        Player player = new Player(username, pokemon);
+    //add pokemon selection back in later to constructor
+    public Player createPlayer(String username){
+        Player player = new Player(username);
         return player;
     }
 
