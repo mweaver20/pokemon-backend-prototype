@@ -11,7 +11,7 @@ public class gameProgress {
 
 
 	public static void main(String[] args) {
-		progressService(); // TODO Auto-generated method stub
+		progressService();
 
 	}
 
