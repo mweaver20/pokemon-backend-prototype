@@ -20,7 +20,7 @@ public class LevelService {
 
     //get attack option input from user
 
-    public void playGame(String username, Pokemon pokemon) {
+    public void playGame(String username) {
 
         //create levels
         levels[0] = new Level(1, "level1", "Caterpie", 12);
